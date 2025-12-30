@@ -1,0 +1,17 @@
+# Core API
+fastapi>=0.115.0
+uvicorn>=0.30.0
+gunicorn>=22.0.0
+
+# Environment
+python-dotenv>=1.0.1
+
+# Database
+mysql-connector-python>=9.2.0
+
+# Data
+numpy>=2.1.0
+pandas>=2.2.3
+
+# Snowflake (PINNED for Python 3.13)
+snowflake-connector-python==4.1.1
